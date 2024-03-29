@@ -1,0 +1,39 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA9wMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBwT/xAAhEAEBAQADAQEAAwEBAQAAAAAAARECEiExQVFhcYEyIv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDjsV+pPQVpo1UgChWfykAeDjFgz/S6tM/f0YDO8T6f1i5FTjQZTgfVrmFnoM5xPq1wdfQY2eJ6vR0HWAxsLPG3VPUGOCS/w26jqDHDxr1PIDL8LWl4pvAE2lD5cSkwB+D8MtAqSgCIcEhyAFylJ6qQDlGHIrATJkC7xKcQKK6nFT0E4ch2ZD4wE3jaOtaSHgI60SNBICLE2NLL/BdQZ4MaYLAZ3iMWfUGchYu8amwC8RfqqWAm8v6Z99/GlmpyAnw8BW4AoTu0gHH60RPFwDhlD0FcVlxxQHJ4MOHICM34qS3xWf8AFcYBThZPYc4+Lm088BEh9VSHYCOp4rBQR1h4YwE2JxphYCOo/F4V+Az9zwvv1d+JBFibF1NBFia0TYDNNjS/0kEEsAjTlKLkgHPhzjdEi5APjJfi+uJ4TK0twE/F8fheVXGAJFSYqQ6A4mU+DZAVh54OH/nVfQTPRYfw8BOCxWFQLxOKwZ6CKmtMRyBnS/FFYCftKxX6VBFTVJoIpVSaBAUAiLieLSAqQ5CiwVnkFhzwb56BSNOHHPU8bjScrgK/+hhcZyVngFgkGeCT0GkmQ4XGKA8BQwKimQEM9AtAmfL1dTk/gEYVi7s8v6i+Ampq98RaCamqTyBKL9WmgkyME8fIuWYzlVL6DSK4/WcqpQbQcuOwuNVoHIqfUe/iuPn2g009z6z7L4+z0Dl04JDA1ROqlAz/ABJ6AgLRaBUp8LS99A/ibcL0f6BcrqP9VyZ8qAqLT5aMgJ5Vnb6u1Hy2gNTRb4i8gVQUspgUORHFpIByeqhQ7cBc9VEcardBUXv9REPQWvjYy7HKDaDWc5qnLQVpyo7HoLlPWVp6DQqjthWgfaQu0Z379H/QaTkVqNK8gPldRb+DsXL6Ctl/E0k0E8k2qtRQF9iLxVSASyBNpAriqVHG7ADWchus4cvoNjniJT7AtWxl2E5fyDT601jKrsC9Ocmc5bDlyaDXR2Z9j0Gm6NZ9j7Aq8i1FPQOkm8i0FFpaJ/uAAXK/3qdoHyLYX0sBPK4VsHKM/dBdulS/RQKSb6B/pAUq4XUYB2qk8SqUFDStToLlGxEpygrjVWs9PQaS+q7MLyEoNux9mUp9ga6crHsfYG15F2YXmLyBrpXkiXwry8BV5FqOxXmDXS7Mu5zloNN8KcmdLQXeTO/TwgMgMAfQJ4AWdAAiAAAAAQAFqiAFy+j8AA5aNoAHLTgACgAAL8ABH6KQAfqwAIwAAAArPDnwACwAA//Z);
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.form {
+    background-color: rgb(241, 240, 240);
+    padding: 20px;
+    border-radius: 20px;
+}
+.btn, .search{
+    margin: auto;
+    width: 95%;
+}
+
+.table-responsive {
+    overflow-x: auto;
+} 
+
+@media (max-width: 768px) {
+    #tablebody{
+        width: 100%;
+    }
+}
+ @media (max-width: 768px) {
+    .form {
+        padding: 10px;
+        width: 100%;
+    }
+}

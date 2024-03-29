@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="java/bootstrap.bundle.min.js"></script>
+
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1> 
+            Expense Tracker
+        </h1>
+    </div>
+    <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-md-8">
+        <div class="form rounded">
+    <div class="w-100 background p-4">
+        <label for="productname"> product name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="productname" required>
+        <div id="namealert"  class="alert alert-danger p-2 mt-3 d-none"> Name shouldn't include numbers</div>
+
+        <label for="productprice"> Date<span class="text-danger">*</span></label>
+        <input type="date" class="form-control" id="productprice" required>
+        <div id="pricealert" class="alert alert-danger p-2 mt-3 d-none">Name shouldn't include letters  </div>
+
+
+        <label for="productcategory"> Profit <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="productcategory" required>
+        <div id="catalert" class="alert alert-danger p-2 mt-3 d-none"> Category shouldn't include numbers </div>
+
+
+        <label for="productdesc"> Investment</label>
+        <textarea class="form-control" id="productdesc" required></textarea>
+        <!-- <div id="descalert" class="alert alert-danger mt-3 d-none "> Start with capital letter </div> -->
+
+
+       <button disabled id="addbtn" class="btn btn-success m-3">add Expence</button>
+       <!-- <button disabled id="updatebtn" class="btn btn-primary m-3">update</button> -->
+
+
+        <input onkeyup="search(this.value)" type="text" class="form-control m-4" placeholder="search by name..." id="search" >
+        <div class="table-responsive col-12 col-sm-12 col-lg-12 w-100" >
+        <table class="table table-hover table-striped text-capitalize w-100" style="margin-top: 20px"> 
+            <thead>
+                <th> Product Name</th>
+                <th> Date</th>
+                <th> Profit</th>
+                <th> Investment</th>
+                <th id="roi"> ROI</th>
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+    </div>
+    </div>
+            </div>
+</div>
+</div>
+
+<script src="java/style.js"></script>
+</body>
+</html>
